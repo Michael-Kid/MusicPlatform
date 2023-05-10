@@ -1,5 +1,5 @@
-import React from 'react'
-import MainLayout from '../layouts/MainLayout'
+import React from 'react';
+import MainLayout from '../layouts/MainLayout';
 
 const Index = () => {
   return (
@@ -13,16 +13,17 @@ const Index = () => {
 
       <style jsx>
         {`
-                    .center {
-                        margin-top: 150px;
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                `}
+          .center {
+              margin-top: 150px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+          }
+        `}
       </style>
     </>
   )
 }
 
-export default Index
+export default Index;
